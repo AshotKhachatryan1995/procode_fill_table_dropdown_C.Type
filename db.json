@@ -16,11 +16,21 @@
          "relatedValue1":12345,
          "relatedValue2":1.0,
          "myCars":[
-            "Hyundai Elantra",
-            "Volkswagen Passat",
-            "Nissan Altima"
+            {
+               "model":"Hyundai Elantra",
+               "vinCode":"VIN1234561"
+            },
+            {
+               "model":"Volkswagen Passat",
+               "vinCode":"VIN1234562"
+            },
+            {
+               "model":"Nissan Altima",
+               "vinCode":"VIN1234563"
+            }
          ],
-         "defaultCar":"Hyundai Elantra"
+         "defaultCar":"Hyundai Elantra",
+         "defaultVinCode":"VIN1234561"
       },
       {
          "id":"2",
@@ -38,14 +48,33 @@
          "relatedValue1":12345,
          "relatedValue2":2,
          "myCars":[
-            "Kia Forte",
-            "Honda Civic",
-            "Mazda 6",
-            "Nissan Sentra",
-            "Volkswagen Jetta",
-            "Subaru Legacy"
+            {
+               "model":"Kia Forte",
+               "vinCode":"VIN2234561"
+            },
+            {
+               "model":"Honda Civic",
+               "vinCode":"VIN2234562"
+            },
+            {
+               "model":"Mazda 6",
+               "vinCode":"VIN2234563"
+            },
+            {
+               "model":"Nissan Sentra",
+               "vinCode":"VIN2234564"
+            },
+            {
+               "model":"Volkswagen Jetta",
+               "vinCode":"VIN2234565"
+            },
+            {
+               "model":"Subaru Legacy",
+               "vinCode":"VIN2234566"
+            }
          ],
-         "defaultCar":"Kia Forte"
+         "defaultCar":"Kia Forte",
+         "defaultVinCode":"VIN2234561"
       },
       {
          "id":"3",
@@ -65,7 +94,8 @@
          "myCars":[
             
          ],
-         "defaultCar":null
+         "defaultCar":null,
+         "defaultVinCode":null
       },
       {
          "id":"4",
@@ -83,9 +113,17 @@
          "relatedValue1":256745,
          "relatedValue2":2000.89,
          "myCars":[
-            "BMW 3 Series",
-            "Audi A4"
-         ]
+            {
+               "model":"BMW 3 Series",
+               "vinCode":"VIN4234561"
+            },
+            {
+               "model":"Audi A4",
+               "vinCode":"VIN4234562"
+            }
+         ],
+         "defaultCar":"BMW 3 Series",
+         "defaultVinCode":"VIN4234561"
       },
       {
          "id":"5",
@@ -103,10 +141,17 @@
          "relatedValue1":"+1",
          "relatedValue2":0.005,
          "myCars":[
-            "Mercedes-Benz C-Class",
-            "Tesla Model 3"
+            {
+               "model":"Mercedes-Benz C-Class",
+               "vinCode":"VIN5234561"
+            },
+            {
+               "model":"Tesla Model 3",
+               "vinCode":"VIN5234562"
+            }
          ],
-         "defaultCar":""
+         "defaultCar":"",
+         "defaultVinCode":null
       },
       {
          "id":"6",
@@ -124,10 +169,17 @@
          "relatedValue1":123450000,
          "relatedValue2":0.006,
          "myCars":[
-            "Volkswagen Passat",
-            "Nissan Altima"
+            {
+               "model":"Volkswagen Passat",
+               "vinCode":"VIN6234561"
+            },
+            {
+               "model":"Nissan Altima",
+               "vinCode":"VIN6234562"
+            }
          ],
-         "defaultCar":"Volkswagen Passat"
+         "defaultCar":"Volkswagen Passat",
+         "defaultVinCode":"VIN6234561"
       },
       {
          "id":"7",
@@ -145,10 +197,17 @@
          "relatedValue1":54321,
          "relatedValue2":-0.07,
          "myCars":[
-            "Mazda 3",
-            "Subaru Impreza"
+            {
+               "model":"Mazda 3",
+               "vinCode":"VIN7234561"
+            },
+            {
+               "model":"Subaru Impreza",
+               "vinCode":"VIN7234562"
+            }
          ],
-         "defaultCar":null
+         "defaultCar":null,
+         "defaultVinCode":null
       },
       {
          "id":"8",
@@ -166,10 +225,17 @@
          "relatedValue1":1500,
          "relatedValue2":-8,
          "myCars":[
-            "Hyundai Tucson",
-            "Kia Sorento"
+            {
+               "model":"Hyundai Tucson",
+               "vinCode":"VIN8234561"
+            },
+            {
+               "model":"Kia Sorento",
+               "vinCode":"VIN8234562"
+            }
          ],
-         "defaultCar":"Hyundai Tucson"
+         "defaultCar":"Hyundai Tucson",
+         "defaultVinCode":"VIN8234561"
       },
       {
          "id":"9",
@@ -187,10 +253,17 @@
          "relatedValue1":54321,
          "relatedValue2":123.45,
          "myCars":[
-            "Chevrolet Tahoe",
-            "Ford Explorer"
+            {
+               "model":"Chevrolet Tahoe",
+               "vinCode":"VIN9234561"
+            },
+            {
+               "model":"Ford Explorer",
+               "vinCode":"VIN9234562"
+            }
          ],
-         "defaultCar":"Ford Explorer"
+         "defaultCar":"Ford Explorer",
+         "defaultVinCode":"VIN9234562"
       },
       {
          "id":"10",
@@ -208,10 +281,17 @@
          "relatedValue1":800,
          "relatedValue2":1000.50,
          "myCars":[
-            "Lexus RX",
-            "Acura MDX"
+            {
+               "model":"Lexus RX",
+               "vinCode":"VIN10234561"
+            },
+            {
+               "model":"Acura MDX",
+               "vinCode":"VIN10234562"
+            }
          ],
-         "defaultCar":"Acura MDX"
+         "defaultCar":"Acura MDX",
+         "defaultVinCode":"VIN10234562"
       },
       {
          "id":"11",
@@ -229,12 +309,25 @@
          "relatedValue1":11111,
          "relatedValue2":11,
          "myCars":[
-            "Toyota Camry",
-            "Honda Accord",
-            "Chevrolet Tahoe",
-            "Ford Explorer"
+            {
+               "model":"Toyota Camry",
+               "vinCode":"VIN11234561"
+            },
+            {
+               "model":"Honda Accord",
+               "vinCode":"VIN11234562"
+            },
+            {
+               "model":"Chevrolet Tahoe",
+               "vinCode":"VIN11234563"
+            },
+            {
+               "model":"Ford Explorer",
+               "vinCode":"VIN11234564"
+            }
          ],
-         "defaultCar":"Toyota Camry"
+         "defaultCar":"Toyota Camry",
+         "defaultVinCode":"VIN11234561"
       }
    ]
 }
